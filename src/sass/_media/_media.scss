@@ -27,9 +27,20 @@
 	.mobile-menu {
 		display: block;
 	}
+	//sum-up section
+	.sum-up__wrapper {
+		padding: 1rem 2rem 2rem 2rem;
+	}
+	.sum-up__icon {
+		margin-top: 2rem;
+	}
 }
 
 @media screen and (min-width: 764px) {
+	//sum-up section
+	.sum-up__wrapper {
+		flex-direction: row;
+	}
 	//description section
 	.description__column {
 			grid-template-columns: repeat(2, 1fr);

@@ -1,0 +1,30 @@
+/*
+* === SUM UP SECTION ===
+*/
+.sum-up {
+	background: #1a1c2a;
+}
+.sum-up__wrapper {
+	color: white;
+	padding: 4rem 2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	p {
+		font-size: 20px;
+	}
+	p, h4 {
+		text-align: left;
+	}
+	max-width: 	80rem;
+	margin: 0 auto;
+}
+.sum-up__column {
+	max-width: 20rem;
+	margin: 0 auto;
+	text-align: left;
+}
+.sum-up__column__heading {
+	margin: 1rem auto;
+	font-weight: 900;
+}
