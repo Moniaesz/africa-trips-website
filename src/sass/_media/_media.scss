@@ -34,6 +34,11 @@
 	.sum-up__icon {
 		margin-top: 2rem;
 	}
+	//footer
+	.footer__column--input {
+		grid-row: 3;
+		grid-column: 1/-1;
+	}
 }
 
 @media screen and (min-width: 764px) {
@@ -58,5 +63,12 @@
 	}
 	.subcolumn3 {
 		grid-column: 2/3;
+	}
+	//footer
+	.footer__wrapper {
+		grid-template-columns: 1fr 1fr 1fr 2fr;
+	}
+	.footer__heading {
+		margin: 6rem auto 2rem auto;
 	}
 }

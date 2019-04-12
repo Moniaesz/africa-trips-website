@@ -1,0 +1,43 @@
+/*
+* === FOOTER ===
+*/
+.footer {
+	background: #f6f6f9;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 1rem;
+	.input--footer {
+		background: white;
+	}
+	p {
+		font-size: 16px;
+	}
+}
+.footer__heading {
+	max-width: 35rem;
+	line-height: 3rem;
+	text-align: center;
+	margin: 2rem auto auto auto;
+	font-weight: 900;
+}
+.footer__wrapper {
+	max-width: 80rem;
+	margin: 0 auto;
+	padding: 5rem 1rem;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	align-items: center;
+	li:first-child {
+		font-weight: 	bold;
+	}
+}
+.btn--footer, .input--footer {
+	display: inline-block;
+}
+.footer__column {
+	margin-top: 2rem;
+}
+.footer__column__input {
+	display: 	flex;
+}
