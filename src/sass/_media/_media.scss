@@ -1,0 +1,30 @@
+/*
+* === MEDIA QUERIES ===
+*/
+@media screen and (max-width:  763px) {
+	//header
+	.header__nav {
+		display: none;
+	}
+	.header__nav--open {
+		display: flex;
+		flex-direction: column;
+		position: absolute;
+		top: 6rem;
+		left: 0;
+		background: rgba(235, 244, 251, 0.9);
+		padding-top: 2rem;
+		padding-bottom: 1.5rem;
+		width: 100%;
+		.btn--nav {
+			margin-top: 1.5rem;
+		}
+	}
+	.nav__list--open {
+		display: flex;
+		flex-direction: column;
+	}
+	.mobile-menu {
+		display: block;
+	}
+}
