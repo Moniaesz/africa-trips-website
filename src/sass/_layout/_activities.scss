@@ -1,0 +1,29 @@
+/*
+* === ACTIVITIES SECTION===
+*/
+.activities {
+  margin: 4rem;
+  text-align: center;
+}
+.activities_par{
+  max-width: 55rem;
+  margin: 2rem auto;
+  line-height: 2.5rem;
+}
+.activities__icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 70rem;
+  margin: 0 auto;
+}
+.activities__single--icon {
+  width: 18rem;
+  margin-top: 2rem;
+}
+.activities__icon__heading {
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
