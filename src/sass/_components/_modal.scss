@@ -1,0 +1,101 @@
+/*
+* === MODAL ===
+*/
+label {
+  display: block;
+}
+.modal {
+	position: relative;
+  max-width: 25rem;
+  margin: 0 auto;
+  display: none;
+  z-index: 2;
+}
+.modal__wrapper {
+	position: absolute;
+	background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  padding: 1rem;
+  margin-top: 30%;
+  border-radius: $borderRadius;
+}
+.modal--show {
+	display: block;
+}
+.btn-login-modal {
+  width: 100%;
+}
+.form {
+  width: 100%;
+  margin: 1rem 2rem 2rem 2rem;
+}
+.modal__par {
+  font-size:1rem;
+}
+.modal__heading__wrapper {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+.modal__heading {
+  font-weight: 300;
+  font-size: 1.6rem;
+  margin-top: 1rem;
+}
+.checkbox__par {
+  margin-left: 0.5rem;
+}
+.faded-text {
+  opacity: 0.6;
+  font-weight: 400;
+}
+.sign-up--par {
+  text-align: center;
+  font-size: 1rem;
+  margin-top: 0.8rem;
+}
+input[type="checkbox"] {
+  display: block;
+}
+.checkbox__wrapper {
+  margin: 1rem auto;
+}
+.heading__wrapper {
+  margin-top: 1rem;
+}
+.heading__wrapper, .checkbox__wrapper {
+  display: flex;
+  align-items: center;
+}
+.heading__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+input[type="text"] {
+  width: 90%;
+  border: 1px solid rgba(172, 172, 183, 0.5);
+  padding: 0.8rem;
+  border-radius: 5px;
+  background: #f6f6f9;
+}
+input[type="checkbox"] {
+  background: white;
+}
+.modal__close-btn {
+  background: $violet;
+  color: white;
+  padding: 0.5rem 1rem 0.8rem 1rem;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  cursor: pointer;
+}
+//content blur if modal is open
+.opacity {
+  filter: blur(4px);
+}

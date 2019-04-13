@@ -2,6 +2,10 @@
 * === MEDIA QUERIES ===
 */
 @media screen and (max-width:  763px) {
+	//modal
+	.modal__wrapper {
+		margin-left: 2rem;
+	}
 	//header
 	.header__nav {
 		display: none;
@@ -42,6 +46,14 @@
 }
 
 @media screen and (min-width: 764px) {
+	//modal
+	.modal__wrapper {
+		padding: 2rem 3rem;
+	}
+	.form {
+		width: 100%;
+		margin: 1rem 2rem 2rem 2rem;
+	}
 	//sum-up section
 	.sum-up__wrapper {
 		flex-direction: row;

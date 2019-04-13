@@ -9,8 +9,34 @@
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
 	<script src="./js/script.js"></script>
 </head>
-<body>
+<body class="body">
 
+	<!-- modal section -->
+	<section class="modal">
+		<div class="modal__wrapper">
+			<span aria-role="button close modal" class="modal__close-btn">x</span>
+			<div class="modal__heading__wrapper">
+				<p class="text--bold modal__par">Log In</p>
+				<h3 class="modal__heading">Enter your details below.</h3>
+			</div>
+			<form class="form">
+				<label class="text--bold" for="input--email">Email:</label>
+				<input type="text"  id="input--email" label="email" placeholder="Text">
+				<div class="heading__wrapper">
+					<label class="text--bold" for="input--password">Password:</label>
+					<p class="modal__par faded-text">Forgot password?</p>
+				</div>
+				 <input type="text" id="input--password" label="password" placeholder="Text">
+				<div class="checkbox__wrapper">
+					<input type="checkbox" >
+					<p class="modal__par checkbox__par text--bold">Remember me</p>
+				</div>
+				<button class="btn btn-login-modal">Log In</button>
+				<p class="modal__par faded-text sign-up--par">Dont't have an account? <span class="violet">Sign Up</span></p>
+		</form>
+		</div>
+	</section>
+	<!-- end of modal section -->
 
 	<!-- all content  -->
 	<div class="content__wrapper">
