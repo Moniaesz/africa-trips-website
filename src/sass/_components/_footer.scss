@@ -27,6 +27,7 @@
 	padding: 5rem 1rem;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(2, 1fr);
 	align-items: center;
 	li:first-child {
 		font-weight: 	bold;
