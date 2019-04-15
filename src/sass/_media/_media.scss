@@ -46,6 +46,26 @@
 }
 
 @media screen and (min-width: 764px) {
+	//general styles
+	h1 {
+	font-size: 64px;
+	}
+	h2 {
+		font-size: 48px;
+	}
+	h3 {
+		font-size: 36px;
+	}
+	h4 {
+		font-size: 20px;
+	}
+	h1, h3 {
+		font-weight: 900;
+	}
+	p {
+		font-size: 28px;
+		font-weight:  300;
+	}
 	//modal
 	.modal__wrapper {
 		padding: 2rem 3rem;
