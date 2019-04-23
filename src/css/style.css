@@ -476,6 +476,20 @@ template {
 .footer__column__input {
   display: flex; }
 
+.footer__column--form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
+.footer__par {
+  font-weight: 400; }
+
+.footer__par:first-child {
+  font-weight: 700; }
+
+.btn--footer {
+  margin-left: 1rem; }
+
 /*
 * === HEADER ===
 */
